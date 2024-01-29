@@ -21,6 +21,10 @@
     <script defer src="js/script.js"></script>
 </head>
 <body>
-    
+    <div id="root">
+        <ul>
+            <li v-for="(mail, i) in mails" :key="i">{{mail}}</li>
+        </ul>
+    </div>
 </body>
 </html>
